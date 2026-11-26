@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link href="style.css?v=3" rel="stylesheet">
+</head>
+<body>
+    <div id="nav_bar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </div>
+
+    <div id="reg_form">
+        <h2>Create Account</h2>
+        <form action="register.php" method="post">
+            <div class="form-group">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" required>
+            </div>
+            <div class="form-group">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" required>
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="options">
+                    <label><input type="radio" name="gender" value="M"> Male</label>
+                    <label><input type="radio" name="gender" value="F"> Female</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Interests</label>
+                <div class="options">
+                    <label><input type="checkbox" name="Interest[]" value="Riding"> Riding</label>
+                    <label><input type="checkbox" name="Interest[]" value="Hiking"> Hiking</label>
+                    <label><input type="checkbox" name="Interest[]" value="Travelling"> Travelling</label>
+                    <label><input type="checkbox" name="Interest[]" value="Others"> Others</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+            <input type="submit" id="submit_btn" value="Register">
+        </form>
+    </div>
+
+    <footer>
+        <span>&copy; 2026 Sahara Nagarkoti</span>
+    </footer>
+</body>
+</html>

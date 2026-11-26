@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F6F8;
+    color: #1E293B;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+#nav_bar {
+    background-color: #1E293B;
+    padding: 16px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+#nav_bar a {
+    color: #E2E8F0;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#nav_bar a:hover {
+    background-color: #334155;
+    color: #FFFFFF;
+}
+
+/* Hero / Slider */
+.slider {
+    background-color: #0F766E;
+    color: #FFFFFF;
+    padding: 48px 32px;
+    text-align: center;
+}
+
+.slider h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Product Grid */
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+}
+
+.product {
+    height: 220px;
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.18), 0 3px 8px rgba(15, 23, 42, 0.1);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.product:hover {
+    box-shadow: 0 14px 28px rgba(15, 23, 42, 0.24);
+    transform: translateY(-2px);
+}
+
+/* Login & Register Forms */
+#login_form,
+#reg_form {
+    width: 100%;
+    max-width: 420px;
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 12px;
+    padding: 32px;
+    margin: 60px auto;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.22), 0 4px 12px rgba(15, 23, 42, 0.12);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+#login_form:hover,
+#reg_form:hover {
+    box-shadow: 0 18px 36px rgba(15, 23, 42, 0.28), 0 6px 16px rgba(15, 23, 42, 0.16);
+    transform: translateY(-2px);
+}
+
+#login_form h2,
+#reg_form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1E293B;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 6px;
+}
+
+#login_form input[type="text"],
+#login_form input[type="password"],
+#reg_form input[type="text"],
+#reg_form input[type="email"],
+#reg_form input[type="password"],
+#reg_form input[type="date"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    background-color: #F8FAFC;
+}
+
+#login_form input:focus,
+#reg_form input:focus {
+    outline: 2px solid #0F766E;
+    border-color: transparent;
+    background-color: #FFFFFF;
+}
+
+#reg_form .options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 0.9rem;
+    color: #334155;
+}
+
+#submit_btn,
+#login_form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #0F766E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+    box-shadow: 0 2px 6px rgba(15, 118, 110, 0.2);
+    transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+#submit_btn:hover,
+#login_form input[type="submit"]:hover {
+    background-color: #115E59;
+    box-shadow: 0 6px 14px rgba(15, 118, 110, 0.28);
+    transform: translateY(-1px);
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    background-color: #1E293B;
+    color: #CBD5E1;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}

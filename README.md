@@ -1,52 +1,37 @@
-# 🌐 HTML & CSS Classwork
+# 🌐 Sahara's HTML & CSS Classwork
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-
-Hey! I'm **Sahara Nagarkoti**, and this is a collection of HTML and CSS pages I built while learning web development in class. Nothing too fancy yet — just practicing layouts, forms, tables, and styling!
+This is a clean and simple Web Technology classwork project created by **Sahara Nagarkoti**.
 
 ---
 
-## 📁 What's Inside
+## 📁 Pages Included
 
-| File | Description |
-| :--- | :--- |
-| `home.html` | Simple homepage with a navbar, hero banner, product grid, and footer |
-| `login.html` | Login form with username and password fields |
-| `register.html` | Sign-up form with name, gender, interests, email, password, and DOB |
-| `practice.html` | HTML basics page with headings, lists, links, and a striped table |
-| `style.css` | Shared stylesheet used across the main pages |
+1. **`home.html`** — Homepage with a top navigation bar, banner, product cards, and a footer.
+2. **`login.html`** — Simple login page with username and password inputs.
+3. **`register.html`** — Registration page with name, gender, interests, email, password, and date of birth.
+4. **`practice.html`** — HTML basics practice page with headings, lists, links, and a striped table.
+5. **`style.css`** — External stylesheet styling the navbar, banner, forms, cards, shadows, and footer.
 
 ---
 
-## 🎨 Color Palette
+## 📖 What I Practiced
 
-I went with a clean, flat **Slate & Teal** theme (no neon glow):
-- **Navbar & Footer:** `#1E293B` (Dark Slate)
-- **Buttons & Banner:** `#0F766E` (Teal)
-- **Background:** `#F4F6F8` (Soft Off-White)
-- **Cards:** `#FFFFFF` with soft shadows
+### 1. Basic HTML Elements
+- **Headings & Text**: `<h1>`-`<h4>`, `<p>`, `<b>`, `<i>`, and `<div>`.
+- **Lists**: Unordered lists (`<ul>`) and ordered lists (`<ol>`).
+- **Tables**: `<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, and `<td>` with alternating row colors.
 
----
+### 2. HTML Forms & Inputs
+- **`<form method="post">`**: Used in `login.html` and `register.html`.
+- **Input Types**: `text`, `email`, `password`, `date`, `radio`, `checkbox`, and `submit`.
 
-## 🧠 What I Practiced
-
-- Structuring pages with HTML tags (`div`, `form`, `table`, `ul`/`ol`, `footer`)
-- Connecting an external `style.css` file to multiple pages
-- Building layouts with **Flexbox** and **CSS Grid**
-- Adding hover effects, focus outlines, and card shadows
-- Styling even/odd table rows with `:nth-child()`
+### 3. CSS Styling & Layout
+- **Color Palette**: Slate (`#1E293B`), Teal (`#0F766E`), and Soft Off-White (`#F4F6F8`).
+- **Layout**: Flexbox for the navbar and CSS Grid for the product cards.
+- **Effects**: Card shadows (`box-shadow`), rounded corners (`border-radius`), and `:hover` transitions.
 
 ---
 
-## 🚀 How to Run It
+## 💻 How to Run Locally
 
-1. Download or clone this repo:
-   ```bash
-   git clone https://github.com/Sahara801/html-css-classwork.git
-   ```
-2. Open `home.html` in any web browser.
-
----
-
-*Still learning and adding more as I go!* ✨
+Double-click `home.html` or open any `.html` file directly in your web browser (Chrome, Edge, Firefox).
